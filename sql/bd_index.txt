@@ -1,0 +1,61 @@
+$servername = "seu_servidor";
+$username = "seu_usuario";
+$password = "sua_senha";
+$dbname = "seu_banco_de_dados";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IMPUT 
+
+Login {
+       <form action="../conection.php" id="form" class="p-3 mt-3 ">
+            <div class="form-field d-flex align-items-center">
+                <span class="far fa-user"></span>
+                <input type="text" name="nome" id="userName" placeholder="login">
+            </div>
+            <div class="form-field d-flex align-items-center">
+                <span class="fas fa-key"></span>
+                <input type="password" name="senha" id="pwd" placeholder="senha">
+            </div>
+            <button class="btn mt-3">Login</button>
+        </form>
+        <div class="text-center fs-6">
+            <a href="#">Esqueceu a senha?</a> 
+        </div>
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+open_ticket{
+     <div id="forms-align" class="container">
+        <h2>Abra um Chamado de Suporte</h2>
+        
+        <form>
+          <div class="form-group">
+            <label for="titulo">Título:</label>
+            <input type="text" class="form-control" id="titulo" placeholder="Digite o título do chamado" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="descricao">Descrição:</label>
+            <textarea class="form-control" id="descricao" rows="3" placeholder="Digite a descrição do chamado" required></textarea>
+          </div>
+          
+          <div class="form-group">
+            <label for="categoria">Categoria:</label>
+            <select class="form-control" id="categoria" onchange="mostrarPerguntaAdicional()">
+              <option value="" disabled selected>Selecione a categoria</option>
+              <option value="hardware">Hardware</option>
+              <option value="software">Software</option>
+              <option value="rede">Rede</option>
+              <option value="mega">Mega</option>
+            </select>
+          </div>
+}
+
+need = atach-archive + (All tickets - view / All tickets - edit) -> pesquisa por id, nome, departamento.
+
+chamado = id, DD/MM/AA HR, id="userName" (witch departament), -> email tickets
