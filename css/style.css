@@ -1,0 +1,7 @@
+body{
+    margin: 0;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+  }

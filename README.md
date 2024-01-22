@@ -1,2 +1,2 @@
 # App
-APP made witch Electron.js, Front-end Back-End Code:(HTML, CSS, Javascript, Node.js, SQL, WampServer )
+APP made witch, Front-end Back-End Code:(HTML, CSS, Booststrap, Javascript, Node.js, SQL, WampServer )

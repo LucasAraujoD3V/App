@@ -1,0 +1,12 @@
+Enterprise Color Orange Pantone 021
+rgb(254, 81, 0) 
+
+gray (212,212,212)
+
+
+
+Require node.js (dowload npm lte)
+npm init -y (Dowload npm)
+
+Electron 
+npm run dev (executar)
